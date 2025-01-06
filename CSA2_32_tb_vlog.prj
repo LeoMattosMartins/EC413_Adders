@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/CSA2_32.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/FA.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/RCA32.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/RCA4.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/timedAND2.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/timedAND3.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/timedOR3.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/timedOR4.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sources_1/new/verificationRCA64.v" \
+"../../../../MattosMartins_Leonardo_Lab3.srcs/sim_1/new/CSA2_32_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
